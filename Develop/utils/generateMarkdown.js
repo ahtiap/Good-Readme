@@ -4,6 +4,17 @@ function generateMarkdown(data) {
   ## **_Description_**:
   ${data.description}
   ## **_Table of Contents_**:
+  ## [Installation](#-Installation)
+
+## [Usage](#-Usage)
+
+## [License](#-License)
+
+## [Contributing](#-Contributing)
+
+## [Tests](#-Tests)
+
+## [Questions](#-Questions)
   ### **_Installation_**:
   ### **_Usage_**:
   ### **_License_**:
