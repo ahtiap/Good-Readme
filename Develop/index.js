@@ -38,13 +38,13 @@ function writeToFile(fileName, data) {
 return fs.writeFileSync(path.join(process.cwd(), fileName),data);
 }
 
-// // function to initialize program
-// function init() {
-// inquirer.prompt(questions).then(res =>{
-//     console.log(res);
-//     writeToFile(readme,generateMarkDown(res));
-// });
-// }
+// function to initialize program
+function init() {
+inquirer.prompt(questions).then(res =>{
+    console.log(res);
+    writeToFile(readme,generateMarkDown(res));
+});
+}
 
-// // function call to initialize program
-// init();
+// function call to initialize program
+init();
