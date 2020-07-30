@@ -31,11 +31,12 @@ const questions = [
     message: "What is your Email address?"
 }
 ];
-// var readme="Readme.md";
-// // function to write README file
-// function writeToFile(fileName, data) {
-// return fs.writeFileSync(path.join(process.cwd(), fileName),data);
-// }
+// file name
+var readme="readme.md";
+// function to write README file
+function writeToFile(fileName, data) {
+return fs.writeFileSync(path.join(process.cwd(), fileName),data);
+}
 
 // // function to initialize program
 // function init() {
