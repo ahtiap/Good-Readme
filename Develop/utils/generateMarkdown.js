@@ -42,9 +42,10 @@ function generateMarkdown(data) {
     Contributors are:
     ${data.contributing}
   ### &#x1F539; **_Questions_**:
-    For additional informations you can reach me using the following options :\n
-    [Github:](https://github.com/${data.username})
-    Email: ${data.email}
+  For additional informations you can reach me using the following options :\n
+  [Github](https://github.com/${data.username})
+
+  Email:${data.email}
   `;
 }
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
