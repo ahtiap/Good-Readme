@@ -1,7 +1,22 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  // badge choices
+  var badgeChoices = [
+    "Apache License 2.0",
+    "MIT License",
+    "Eclipse Public License2.0",
+  ];
+  // array of badge links
+  var badges = [
+    "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    "[![License](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://opensource.org/licenses/EPL-2.0)",
+  ];
+  // variable to contain the coresponding badge
+  var badge = badges[badgeChoices.indexOf(data.license)];
+  //////////////
   return `# **${data.title}**
-  
+  ${badge}\n
   ## **_Table of Contents_**:
   ## [Description](#-Description)
 
