@@ -24,7 +24,11 @@ function generateMarkdown(data) {
   ### **_License_**:
   This application is covered under ${data.license}
   ### **_Contributing_**:
+  Contributors are:\n ${data.contributing}
   ### **_Questions_**:
+  For additional informations you can reach me using the following options :\n
+  [Github:](https://github.com/${data.username})
+  \nEmail: ${data.email}
   `;
 }
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
