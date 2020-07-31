@@ -19,8 +19,10 @@ Node modules used are: `inquirer`,`fs` and `path`;
 
 ### &#x1F539; **_Installation_**:
 
-To install the app the user should run the following CLI command `npm install` and then `npm start` to run the app.
+To install the app the user should run the following CLI command `npm install` and then `npm start` to run the app. `npm install` will automatically insatll all required modules as specified in `package.json` file.
 
 ### &#x1F539; **_Links_**:
 
 Test run Video: https://drive.google.com/file/d/14P6CLdGVI9LPgQWsEjllLDEROg2_vqsl/view.
+
+[Github.](https://github.com/ahtiap/Good-Readme)
