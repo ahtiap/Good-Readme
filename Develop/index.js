@@ -15,6 +15,16 @@ const questions = [
     message: "Describe your Project.",
   },
   {
+    type: "input",
+    name: "installation",
+    message: "What are the installation ionstructions?",
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "Add list of entities who contributed to this project.",
+  },
+  {
     type: "list",
     name: "license",
     message: "Choose a License.",
