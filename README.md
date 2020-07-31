@@ -8,7 +8,7 @@
 
 ## [Questions](#-Questions)
 
-## &#x1F539; **_Description_**:
+### &#x1F539; **_Description_**:
 
     This app asks the user series of question and then uses the responses to generate a MarkedDown ReadMe file.
 
